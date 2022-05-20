@@ -1,0 +1,272 @@
+@import  url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Source+Sans+Pro:wght@300&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+.sidebar{
+    /* position: absolute ; */
+    background-color: rgb(86, 81, 81);
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav {
+    padding:   45px;
+    
+}
+.sidebar  nav li{
+     list-style: none;
+     font-size: 20px;
+     padding:35px 0;
+      
+}
+.sidebar  nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+    
+.main{
+    background-color:rgb(47, 106, 72);
+    width: 85vw;
+    /* position: absolute; */
+    
+}
+.container{
+    display: flex;
+    
+}
+.infoContainer{
+    background-color: rgb(52, 24, 154);
+    height: 58vh;
+    width: 80vw ;
+    margin: 144px auto;
+    display: flex;
+    justify-content : space-around;
+    
+   
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
+    
+    
+    
+}
+.hello {
+    font-size: 65px;
+    
+}
+.name {
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.about {
+    font-size: 35px;
+
+}
+.moreabout{
+    font-size: 22px;
+    margin-top :20px;
+    font-family:'fira sans', sans-serif ;
+    
+}
+.buttons{
+    margin-top: 34px;
+}
+.btn {
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: rgb(240, 245, 245);
+    background-color: rgb(83, 173, 211);
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 4px;
+    cursor: pointer;
+}
+.btn-sm{
+    font-size: 15px;
+    padding: 7px 9px  ;
+    margin: 10px 0 ;
+
+}
+
+.btn:hover{
+    background-color:rgb(240, 245, 245) ;
+    color:rgb(83, 173, 211) ;
+}
+.devPic img{
+    height : 58vh;
+}
+
+
+
+
+
+
+
+.contactform{
+    padding: 0 35px;
+    padding-top: 144px;
+    font-family:'fira sans', sans-serif ;
+    margin-left: 50px ;
+
+}
+.contactform h1{
+    font-family: 'Source Sans Pro', sans-serif;
+   padding: 12px 0;
+   margin: 0 30px;
+    
+}
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+        flex-direction: column;
+
+}
+.contactform form div input{
+    width: 26vw;
+        border-radius: 5px;
+        margin: 6px 0 0 0;
+        padding: 3px;
+}
+#emailHelp{
+    font-size: 11px;
+    color:rgb(99, 99, 217);
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 24px;
+    margin: 3px 0;
+}
+
+
+
+
+.blogitems{
+    margin: 50px;
+    font-family:'fira sans', sans-serif ;
+
+}
+ h1{
+    font-family: 'Source Sans Pro', sans-serif;
+   margin: 50px;
+
+}
+ p {
+    font-family:'fira sans', sans-serif ;
+
+}
+
+
+
+.intro h2{
+    font-family:'fira sans', sans-serif ;
+    margin: 12px;
+    
+    
+}
+.intro h4{
+    font-family:'fira sans', sans-serif ;
+    margin: 12px;
+}
+    
+.intro p{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px; 
+}
+.project h4{
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 12px; 
+   
+}
+
+.skillContainer{
+    margin: 12px;
+}
+.intro{
+    margin:40px 60px;
+}
+
+
+.skill1{
+    width: 250px;
+    height: 6px;
+    background-color: brown;
+}
+.skill2{
+    width: 256px;
+    height: 6px;
+    background-color: brown;
+}
+.skill3{
+    width:155px;
+    height: 6px;
+    background-color: brown;
+}
+
+.skill4{
+    width: 200px;
+    height: 6px;
+    background-color: brown;
+}
+.skill5{
+    width: 207px;
+    height: 6px;
+    background-color: brown;
+}
+.sidebarGo{
+    transform:translate(-400px ,0px);
+    position: absolute;
+}
+.hamburger{
+    position: absolute;
+    cursor: pointer;
+    top:10px;
+    left: 10px;
+
+}
+
+.cross{
+    margin-left: 155px;
+    
+}
+.social{
+    margin: 0px 12px;
+    position: absolute;
+    display: flex;
+}
+
+.social img{
+    height: 6vh;
+    width: 6vw;
+    margin: 0 12px;
+    border-radius: 50px;
+    
+}
+    
+
+
+
+
+@media (max-width:1000px){
+   .devPic{
+       display: none;
+   }
+    /* .sidebar{
+        transform: translate(-444px ,0px);
+        position: absolute;
+    } */
+
+    
+}
+
