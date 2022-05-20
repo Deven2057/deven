@@ -28,7 +28,7 @@
 
     
 .main{
-    background-color:rgb(47, 106, 72);
+    background-color:white;
     width: 85vw;
     /* position: absolute; */
     
@@ -38,7 +38,7 @@
     
 }
 .infoContainer{
-    background-color: rgb(52, 24, 154);
+    background-color: white;
     height: 58vh;
     width: 80vw ;
     margin: 144px auto;
